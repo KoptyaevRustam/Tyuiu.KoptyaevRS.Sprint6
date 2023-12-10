@@ -67,7 +67,7 @@ namespace Tyuiu.KoptyaevRS.Sprint6.Task3.V16
 
         private void buttonInfo_KRS_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Таск 2 выполнил студент группы АСОиУБ-23-3 Коптяев Рустам Сергеевич", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("Таск 3 выполнил студент группы АСОиУБ-23-3 Коптяев Рустам Сергеевич", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     
     }
