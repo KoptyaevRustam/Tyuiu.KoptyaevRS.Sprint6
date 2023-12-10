@@ -1,0 +1,23 @@
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System;
+
+using System.IO;
+using Tyuiu.KoptyaevRS.Sprint6.Task5.V6.Lib;
+
+namespace Tyuiu.KoptyaevRS.Sprint6.Task5.V6.Test
+{
+    [TestClass]
+    public class DataServiceTest
+    {
+        [TestMethod]
+        public void Valid()
+        {
+            string path = @"C:\Users\Сергей\source\repos\Tyuiu.KoptyaevRS.Sprint6\Tyuiu.KoptyaevRS.Sprint6.Task5.V6\bin\Debug\InPutFileTask5V6.txt";
+            FileInfo fileInfo = new FileInfo(path);
+            bool fileExists = fileInfo.Exists;
+            bool wait = true;
+            Assert.AreEqual(wait, fileExists);
+
+        }
+    }
+}
