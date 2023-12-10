@@ -42,5 +42,7 @@ namespace Tyuiu.KoptyaevRS.Sprint6.Task6.V3
             string str = "r";
             textBoxOutPut_KRS.Text = ds.CollectTextFromFile(str, openFilePath);
         }
+
+
     }
 }

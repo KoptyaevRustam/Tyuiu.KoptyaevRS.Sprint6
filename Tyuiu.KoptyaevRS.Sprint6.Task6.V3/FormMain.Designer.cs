@@ -32,24 +32,24 @@ namespace Tyuiu.KoptyaevRS.Sprint6.Task6.V3
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
             this.panelUp_KRS = new System.Windows.Forms.Panel();
-            this.buttonOpenFile_KRS = new System.Windows.Forms.Button();
-            this.buttonDone_KRS = new System.Windows.Forms.Button();
-            this.buttonInfo_KRS = new System.Windows.Forms.Button();
             this.groupBoxCon_KRS = new System.Windows.Forms.GroupBox();
             this.textBoxCon_KRS = new System.Windows.Forms.TextBox();
+            this.buttonInfo_KRS = new System.Windows.Forms.Button();
+            this.buttonDone_KRS = new System.Windows.Forms.Button();
+            this.buttonOpenFile_KRS = new System.Windows.Forms.Button();
             this.panelleft_KRS = new System.Windows.Forms.Panel();
-            this.panelRight_KRS = new System.Windows.Forms.Panel();
             this.groupBoxInPut_KRS = new System.Windows.Forms.GroupBox();
-            this.groupBoxOutPut_KRS = new System.Windows.Forms.GroupBox();
             this.textBoxInPut_KRS = new System.Windows.Forms.TextBox();
+            this.panelRight_KRS = new System.Windows.Forms.Panel();
+            this.groupBoxOutPut_KRS = new System.Windows.Forms.GroupBox();
             this.textBoxOutPut_KRS = new System.Windows.Forms.TextBox();
             this.openFileDialogTask = new System.Windows.Forms.OpenFileDialog();
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
             this.panelUp_KRS.SuspendLayout();
             this.groupBoxCon_KRS.SuspendLayout();
             this.panelleft_KRS.SuspendLayout();
-            this.panelRight_KRS.SuspendLayout();
             this.groupBoxInPut_KRS.SuspendLayout();
+            this.panelRight_KRS.SuspendLayout();
             this.groupBoxOutPut_KRS.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -64,39 +64,6 @@ namespace Tyuiu.KoptyaevRS.Sprint6.Task6.V3
             this.panelUp_KRS.Name = "panelUp_KRS";
             this.panelUp_KRS.Size = new System.Drawing.Size(800, 180);
             this.panelUp_KRS.TabIndex = 0;
-            // 
-            // buttonOpenFile_KRS
-            // 
-            this.buttonOpenFile_KRS.Image = ((System.Drawing.Image)(resources.GetObject("buttonOpenFile_KRS.Image")));
-            this.buttonOpenFile_KRS.Location = new System.Drawing.Point(4, 4);
-            this.buttonOpenFile_KRS.Name = "buttonOpenFile_KRS";
-            this.buttonOpenFile_KRS.Size = new System.Drawing.Size(88, 79);
-            this.buttonOpenFile_KRS.TabIndex = 0;
-            this.toolTip.SetToolTip(this.buttonOpenFile_KRS, "Открыть файл\r\nВыберите файл для обработки");
-            this.buttonOpenFile_KRS.UseVisualStyleBackColor = true;
-            this.buttonOpenFile_KRS.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // buttonDone_KRS
-            // 
-            this.buttonDone_KRS.Image = ((System.Drawing.Image)(resources.GetObject("buttonDone_KRS.Image")));
-            this.buttonDone_KRS.Location = new System.Drawing.Point(99, 4);
-            this.buttonDone_KRS.Name = "buttonDone_KRS";
-            this.buttonDone_KRS.Size = new System.Drawing.Size(99, 79);
-            this.buttonDone_KRS.TabIndex = 1;
-            this.toolTip.SetToolTip(this.buttonDone_KRS, "Производит поиск в файле слов в которых встречается r");
-            this.buttonDone_KRS.UseVisualStyleBackColor = true;
-            this.buttonDone_KRS.Click += new System.EventHandler(this.buttonDone_KRS_Click);
-            // 
-            // buttonInfo_KRS
-            // 
-            this.buttonInfo_KRS.Image = ((System.Drawing.Image)(resources.GetObject("buttonInfo_KRS.Image")));
-            this.buttonInfo_KRS.Location = new System.Drawing.Point(694, 5);
-            this.buttonInfo_KRS.Name = "buttonInfo_KRS";
-            this.buttonInfo_KRS.Size = new System.Drawing.Size(103, 79);
-            this.buttonInfo_KRS.TabIndex = 2;
-            this.toolTip.SetToolTip(this.buttonInfo_KRS, "Сведения о программе");
-            this.buttonInfo_KRS.UseVisualStyleBackColor = true;
-            this.buttonInfo_KRS.Click += new System.EventHandler(this.buttonInfo_KRS_Click);
             // 
             // groupBoxCon_KRS
             // 
@@ -118,6 +85,39 @@ namespace Tyuiu.KoptyaevRS.Sprint6.Task6.V3
             this.textBoxCon_KRS.TabIndex = 0;
             this.textBoxCon_KRS.Text = resources.GetString("textBoxCon_KRS.Text");
             // 
+            // buttonInfo_KRS
+            // 
+            this.buttonInfo_KRS.Image = ((System.Drawing.Image)(resources.GetObject("buttonInfo_KRS.Image")));
+            this.buttonInfo_KRS.Location = new System.Drawing.Point(694, 5);
+            this.buttonInfo_KRS.Name = "buttonInfo_KRS";
+            this.buttonInfo_KRS.Size = new System.Drawing.Size(103, 79);
+            this.buttonInfo_KRS.TabIndex = 2;
+            this.toolTip.SetToolTip(this.buttonInfo_KRS, "Сведения о программе");
+            this.buttonInfo_KRS.UseVisualStyleBackColor = true;
+            this.buttonInfo_KRS.Click += new System.EventHandler(this.buttonInfo_KRS_Click);
+            // 
+            // buttonDone_KRS
+            // 
+            this.buttonDone_KRS.Image = ((System.Drawing.Image)(resources.GetObject("buttonDone_KRS.Image")));
+            this.buttonDone_KRS.Location = new System.Drawing.Point(99, 4);
+            this.buttonDone_KRS.Name = "buttonDone_KRS";
+            this.buttonDone_KRS.Size = new System.Drawing.Size(99, 79);
+            this.buttonDone_KRS.TabIndex = 1;
+            this.toolTip.SetToolTip(this.buttonDone_KRS, "Производит поиск в файле слов в которых встречается r");
+            this.buttonDone_KRS.UseVisualStyleBackColor = true;
+            this.buttonDone_KRS.Click += new System.EventHandler(this.buttonDone_KRS_Click);
+            // 
+            // buttonOpenFile_KRS
+            // 
+            this.buttonOpenFile_KRS.Image = ((System.Drawing.Image)(resources.GetObject("buttonOpenFile_KRS.Image")));
+            this.buttonOpenFile_KRS.Location = new System.Drawing.Point(4, 4);
+            this.buttonOpenFile_KRS.Name = "buttonOpenFile_KRS";
+            this.buttonOpenFile_KRS.Size = new System.Drawing.Size(88, 79);
+            this.buttonOpenFile_KRS.TabIndex = 0;
+            this.toolTip.SetToolTip(this.buttonOpenFile_KRS, "Открыть файл\r\nВыберите файл для обработки");
+            this.buttonOpenFile_KRS.UseVisualStyleBackColor = true;
+            this.buttonOpenFile_KRS.Click += new System.EventHandler(this.button1_Click);
+            // 
             // panelleft_KRS
             // 
             this.panelleft_KRS.Controls.Add(this.groupBoxInPut_KRS);
@@ -126,15 +126,6 @@ namespace Tyuiu.KoptyaevRS.Sprint6.Task6.V3
             this.panelleft_KRS.Name = "panelleft_KRS";
             this.panelleft_KRS.Size = new System.Drawing.Size(388, 270);
             this.panelleft_KRS.TabIndex = 1;
-            // 
-            // panelRight_KRS
-            // 
-            this.panelRight_KRS.Controls.Add(this.groupBoxOutPut_KRS);
-            this.panelRight_KRS.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panelRight_KRS.Location = new System.Drawing.Point(394, 180);
-            this.panelRight_KRS.Name = "panelRight_KRS";
-            this.panelRight_KRS.Size = new System.Drawing.Size(406, 270);
-            this.panelRight_KRS.TabIndex = 2;
             // 
             // groupBoxInPut_KRS
             // 
@@ -147,33 +138,44 @@ namespace Tyuiu.KoptyaevRS.Sprint6.Task6.V3
             this.groupBoxInPut_KRS.TabStop = false;
             this.groupBoxInPut_KRS.Text = "Ввод:";
             // 
+            // textBoxInPut_KRS
+            // 
+            this.textBoxInPut_KRS.Dock = System.Windows.Forms.DockStyle.Left;
+            this.textBoxInPut_KRS.Location = new System.Drawing.Point(3, 16);
+            this.textBoxInPut_KRS.Multiline = true;
+            this.textBoxInPut_KRS.Name = "textBoxInPut_KRS";
+            this.textBoxInPut_KRS.ReadOnly = true;
+            this.textBoxInPut_KRS.Size = new System.Drawing.Size(366, 251);
+            this.textBoxInPut_KRS.TabIndex = 0;
+            // 
+            // panelRight_KRS
+            // 
+            this.panelRight_KRS.Controls.Add(this.groupBoxOutPut_KRS);
+            this.panelRight_KRS.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelRight_KRS.Location = new System.Drawing.Point(388, 180);
+            this.panelRight_KRS.Name = "panelRight_KRS";
+            this.panelRight_KRS.Size = new System.Drawing.Size(412, 270);
+            this.panelRight_KRS.TabIndex = 2;
+            // 
             // groupBoxOutPut_KRS
             // 
             this.groupBoxOutPut_KRS.Controls.Add(this.textBoxOutPut_KRS);
-            this.groupBoxOutPut_KRS.Dock = System.Windows.Forms.DockStyle.Right;
-            this.groupBoxOutPut_KRS.Location = new System.Drawing.Point(4, 0);
+            this.groupBoxOutPut_KRS.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.groupBoxOutPut_KRS.Location = new System.Drawing.Point(0, 0);
             this.groupBoxOutPut_KRS.Name = "groupBoxOutPut_KRS";
-            this.groupBoxOutPut_KRS.Size = new System.Drawing.Size(402, 270);
+            this.groupBoxOutPut_KRS.Size = new System.Drawing.Size(412, 270);
             this.groupBoxOutPut_KRS.TabIndex = 0;
             this.groupBoxOutPut_KRS.TabStop = false;
             this.groupBoxOutPut_KRS.Text = "Вывод:";
             // 
-            // textBoxInPut_KRS
-            // 
-            this.textBoxInPut_KRS.Location = new System.Drawing.Point(2, 20);
-            this.textBoxInPut_KRS.Multiline = true;
-            this.textBoxInPut_KRS.Name = "textBoxInPut_KRS";
-            this.textBoxInPut_KRS.ReadOnly = true;
-            this.textBoxInPut_KRS.Size = new System.Drawing.Size(366, 234);
-            this.textBoxInPut_KRS.TabIndex = 0;
-            // 
             // textBoxOutPut_KRS
             // 
-            this.textBoxOutPut_KRS.Location = new System.Drawing.Point(7, 20);
+            this.textBoxOutPut_KRS.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBoxOutPut_KRS.Location = new System.Drawing.Point(3, 16);
             this.textBoxOutPut_KRS.Multiline = true;
             this.textBoxOutPut_KRS.Name = "textBoxOutPut_KRS";
             this.textBoxOutPut_KRS.ReadOnly = true;
-            this.textBoxOutPut_KRS.Size = new System.Drawing.Size(389, 237);
+            this.textBoxOutPut_KRS.Size = new System.Drawing.Size(406, 251);
             this.textBoxOutPut_KRS.TabIndex = 0;
             // 
             // openFileDialogTask
@@ -201,9 +203,9 @@ namespace Tyuiu.KoptyaevRS.Sprint6.Task6.V3
             this.groupBoxCon_KRS.ResumeLayout(false);
             this.groupBoxCon_KRS.PerformLayout();
             this.panelleft_KRS.ResumeLayout(false);
-            this.panelRight_KRS.ResumeLayout(false);
             this.groupBoxInPut_KRS.ResumeLayout(false);
             this.groupBoxInPut_KRS.PerformLayout();
+            this.panelRight_KRS.ResumeLayout(false);
             this.groupBoxOutPut_KRS.ResumeLayout(false);
             this.groupBoxOutPut_KRS.PerformLayout();
             this.ResumeLayout(false);
