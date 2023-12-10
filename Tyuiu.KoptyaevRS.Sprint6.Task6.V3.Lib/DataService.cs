@@ -25,7 +25,7 @@ namespace Tyuiu.KoptyaevRS.Sprint6.Task6.V3.Lib
                         string[] z = line.Split();
                         foreach (string x in z.Where(k => k.Contains('r')))
                         {
-                            resStr = resStr + x;
+                            resStr = resStr + " " + x;
                         }
                     }
                 }
