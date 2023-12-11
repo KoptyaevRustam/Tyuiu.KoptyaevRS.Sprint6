@@ -16,5 +16,10 @@ namespace Tyuiu.KoptyaevRS.Sprint6.Task7.V15
         {
             InitializeComponent();
         }
+
+        private void buttonOk_KRS_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
