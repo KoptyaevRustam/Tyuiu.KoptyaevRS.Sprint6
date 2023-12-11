@@ -13,9 +13,9 @@ namespace Tyuiu.KoptyaevRS.Sprint6.Task7.V15.Test
         {
             DataService ds = new DataService();
 
-            int[,] matrix = new int[2, 8] { { 0, 0, 0, 0, 0, 0, 0, 0 }, { 0, 0, 0, 0, 0, 0, 0, -3 } };
+            int[,] matrix = new int[2, 8] { { 0, 0, 0, 0, 0, 0, 0, 0 }, { 0, 0, 0, 0, 0, 0, -3, 0 } };
             int[,] res = ds.GetMatrix(matrix);
-            int[,] wait = new int[2, 8] { { 0, 0, 0, 0, 0, 0, 0, 3 }, { 0, 0, 0, 0, 0, 0, 0, 3 } };
+            int[,] wait = new int[2, 8] { { 0, 0, 0, 0, 0, 0, 3, 0 }, { 0, 0, 0, 0, 0, 0, 3, 0 } };
             CollectionAssert.AreEqual(wait, res);
         }
     }

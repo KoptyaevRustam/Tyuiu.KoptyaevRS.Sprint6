@@ -15,7 +15,7 @@ namespace Tyuiu.KoptyaevRS.Sprint6.Task7.V15.Lib
             int rows = matrix.GetUpperBound(0) + 1;
             int columns = matrix.Length / rows;
 
-            int xCol = 7;
+            int xCol = 6;
 
             for (int r = 0; r < rows; r++)
             {
